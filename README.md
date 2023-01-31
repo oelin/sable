@@ -2,7 +2,7 @@
 
 A dark, minimal markdown editor for late nights 🌙.
 
-<img src='images/stable.png'>
+<img src='images/preview.png'>
 
 
 ## Installation
