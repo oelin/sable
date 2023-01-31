@@ -7,10 +7,11 @@ A dark, minimal markdown editor for late nights 🌙.
 
 ## Installation
 
+```sh
+$ cd stable
 ```
-cd stable
-
-npm i
+```sh
+$ npm i
 ```
 
 To run the dev server use `npm run dev`, or `npm run build` to create a production build.
