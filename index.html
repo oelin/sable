@@ -6,6 +6,8 @@
 html {
         font: 16px/1.7 consolas, monospace;
         word-spacing: 1.3;
+        overflow: hidden;
+        height: 100%;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 }
 
 ::selection {
-        background-color: #ffffff14;
+        background-color: #ffffff18;
 }
 
 .editor {
@@ -33,7 +35,7 @@ body {
 
 
 .source {
-        border-right: 1px dashed #ffffff10;
+        border-right: 1px dashed #ffffff26;
 }
 
 .source__textarea {
@@ -42,13 +44,13 @@ body {
         resize: none;
         width: 100%;
         height: 100%;
-        background: #ffffff05;
-        color: #ffffff2b; /*#ffffffaa;*/
+        background: transparent;
+        color: #ffffffcc; /*#ffffffaa;*/
         caret-color: crimson;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         padding: 2rem;
         line-height: 1.6;
-        letter-spacing: 0.65;
+        letter-spacing: 1.3;
 }
 
 .source, .target {
@@ -65,9 +67,10 @@ body {
 .target {
         /*background: #ffffff03;*/
         font-family: sans-serif;
-        color: #ffffff80;
-        padding: 2rem 21rem;
+        color: #ffffffcc;
+        padding: 2rem 22rem;
         font-size: 1.1rem;
+        letter-spacing: 0.5;
 
 }
 
@@ -77,11 +80,11 @@ h1,h2,h3,h4,p {
 }
 
 h1,h2 {
-        border-bottom: 1px solid #111;
+        border-bottom: 1px solid #ffffff26;
 }
 
 a {
-        color: white;
+        color: #ffffff7a;
 }
 a:not(:hover) {
         text-decoration: none;
