@@ -1,4 +1,4 @@
-# Stable
+# Sable
 
 A dark, minimal markdown editor for late nights 🌙.
 
