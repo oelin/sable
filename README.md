@@ -2,7 +2,7 @@
 
 A minimalistic markdown editor for writing in low light 😴.
 
-<img src='images/preview3.png'>
+<img src='images/preview4.PNG'>
 
 
 ## About
