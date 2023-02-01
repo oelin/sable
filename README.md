@@ -1,6 +1,6 @@
 # Sable
 
-A dark, minimal markdown editor for late night writi.
+A dark, minimal markdown editor for late night writing 😴.
 
 <img src='images/preview3.png'>
 
