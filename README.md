@@ -1,6 +1,6 @@
 # Sable
 
-A dark, minimal markdown editor for late nights 🌙.
+A dark, minimal markdown editor for late night writi.
 
 <img src='images/preview3.png'>
 
@@ -16,7 +16,7 @@ Sable is a lightweight markdown editor with zero clutter. It focuses on providin
 * 🎨 syntax highlighting.
 * 🔼 HTML and PDF export.
 
-Some planned features include:
+Some planned features incddd
 
 * MathJax support.
 * Embedded HTML support.
