@@ -5,6 +5,12 @@ A dark, minimal markdown editor for late nights 🌙.
 <img src='images/preview3.png'>
 
 
+## Features
+
+* 💻 minimal and distraction free editing.
+* ❤ beautiful syntax highlighting.
+* ⏬ HTML and PDF export.
+
 ## Installation
 
 ```sh
