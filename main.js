@@ -1,11 +1,41 @@
-import { markdown } from 'markdown'
+import MarkdownIt from 'markdown-it'
+import hljs from 'highlight.js'
+import './styles/base.css'
+import './styles/theme.css'
 
 
-//const state = { flushInput: false }
+const md = new MarkdownIt({
+	highlight: function(string, language) {
+		if (language && hljs.getLanguage(language)) {
+			try {
+				return hljs.highlight(string, { language })
+					.value
+			} catch {}
+		}
+	}
+})
 
 
-document.querySelector('.source__textarea').focus()
-document.querySelector('.source__textarea').addEventListener('input', function(e) {
+const source = document.querySelector('.source__textarea')
+const target = document.querySelector('.target')
+
+
+function scrollContainer(element) {
+
+	if (element.selectionStart == element.selectionEnd) {
+		element.scrollTop = element.scrollHeight
+	}
+}
+
+
+window.addEventListener('load', function() {
 	
-	document.querySelector('.target').innerHTML = markdown.toHTML(this.value)
+	source.addEventListener('input', function() {
+		target.innerHTML = md.render(source.value)
+
+		scrollContainer(source)
+		scrollContainer(target)
+	})
+
+	source.focus()
 })
