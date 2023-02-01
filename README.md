@@ -8,13 +8,6 @@ A dark, minimal markdown editor for late nights 🌙.
 ## Installation
 
 ```sh
-$ git clone https://github.com/oelin/sable
-```
-
-```sh
-$ cd sable
-```
-```sh
 $ npm i
 ```
 
