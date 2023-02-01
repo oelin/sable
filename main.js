@@ -34,7 +34,7 @@ window.addEventListener('load', function() {
 		target.innerHTML = md.render(source.value)
 
 		scrollContainer(source)
-		scrollContainer(target)
+		//scrollContainer(target)
 	})
 
 	source.focus()
