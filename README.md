@@ -16,7 +16,7 @@ Sable is a simple markdown editor with zero clutter. It focuses on providing a q
 * 🎨 syntax highlighting.
 * 🔼 HTML and PDF export.
 
-Some planned features incddd
+Some planned features include:
 
 * MathJax support.
 * Embedded HTML support.
