@@ -7,20 +7,20 @@ A minimalistic markdown editor for writing in low light 😴.
 
 ## About
 
-Sable is a simple markdown editor with zero clutter. It focuses on providing a quiet, distraction free user experience and reducing eye strain in environments with low light.
+Sable is a minimalistic markdown editor with zero clutter. It aims to provide a quiet, distraction free writing experience while reducing eye strain in low light.
 
 
 ## Features
 
-* 💻 quiet, distraction free editing.
-* 🎨 syntax highlighting.
+* 💻 quiet, distraction free writing.
+* 🎨 lovely syntax highlighting.
 * 🔼 HTML and PDF export.
 
 Some planned features include:
 
 * MathJax support.
 * Embedded HTML support.
-* Custom colour schemes.
+* Custom themes.
 
 
 ## Installation
